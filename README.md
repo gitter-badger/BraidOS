@@ -19,3 +19,20 @@ and will work to show that Braids can be seen as perfect replacements for a mult
 We use concepts taken from multiple sources and create a custom abstraction method for working programmers to use in (more easily) defining concurrent software architectures.
 
 
+Related Articles
+
+## Go ##
+
+[http://blog.golang.org/pipelines](http://blog.golang.org/pipelines "Go Concurrency Patterns: Pipelines and cancellation")
+
+[https://blog.mozilla.org/services/2014/03/12/sane-concurrency-with-go/](https://blog.mozilla.org/services/2014/03/12/sane-concurrency-with-go/ "Sane Concurrency with Go")
+
+## Braid Theory ##
+
+[http://www.ms.unimelb.edu.au/publications/Chiodo.pdf](http://www.ms.unimelb.edu.au/publications/Chiodo.pdf "An Introduction to Braid Theory")
+
+## Monoidal Categories ##
+
+[http://math.ucr.edu/home/baez/rosetta.pdf](http://math.ucr.edu/home/baez/rosetta.pdf "Physics, Topology, Logic and Computation:")
+
+
