@@ -1,4 +1,4 @@
-Braid_Theory_and_Concurrency_in_Go
+Generalized-Braids-and-Concurrency
 ==================================
 
 # Braids, Concurrency, and Monoidal Categories in Go #
