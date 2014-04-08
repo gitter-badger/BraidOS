@@ -1,10 +1,8 @@
-# Braids, Concurrency, and Monoidal Categories in Go #
+# Generalized Braids & Concurrency #
 
 
 **Abstract:**
-This repository is dedicated to building up a theoretical framework for a new abstraction of concurrency and parallelism in computing.
-
-We use Go's concurrency primitives as a means to implement a high-level working version of the ideas discussed here.
+This repository is dedicated to building up a theoretical framework for a new abstraction of reliable concurrency and parallelism in computing.
 
 We will be using mathematical concepts from:
 
@@ -17,11 +15,6 @@ We use concepts taken from multiple sources and create a custom abstraction meth
 
 **Related Articles**
 
-### Go ###
-
-[http://blog.golang.org/pipelines](http://blog.golang.org/pipelines "Go Concurrency Patterns: Pipelines and cancellation")
-
-[https://blog.mozilla.org/services/2014/03/12/sane-concurrency-with-go/](https://blog.mozilla.org/services/2014/03/12/sane-concurrency-with-go/ "Sane Concurrency with Go")
 
 ### Braid Theory ###
 
