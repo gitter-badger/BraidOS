@@ -14,7 +14,9 @@ Basic Braid Theory is not too fundamentally hard to learn. The biggest hurdle ma
 
 ##Configuration Spaces
 
-The best way to think of these guys is as State Spaces. Or to map it directly to systems concepts, its not necessarily incorrect to think of them as strictly some sort of 'Systems Configuration Space' rather than purely as a 'Mathematical Configuration Space'.
+There is a very awesome correlation between braids and configuration spaces in mathematics! The relationship is topological and could potentially even have a fruitful relationship to Homotopy Type Theory (need to look into this more).
+
+The easiest way to think of these guys is as State Spaces. You can also map the mathematical concepts directly to systems concepts, its not necessarily incorrect to think of them as strictly some sort of 'Systems Configuration Space' rather than purely as a 'Mathematical Configuration Space'.
 
 The relationship between braid groups and topological spaces is straightforward and limited. However, using the abstract notion of 'A Generalized Braid' we should be able to allow ourselves to ignore any and all topological constrictions when strictly working in the computational realm.
 
