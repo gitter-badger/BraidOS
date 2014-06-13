@@ -2,7 +2,7 @@
 
 **Welcome to BraidOS! The world's first 'Braided System'!**
 
-##What are these 'Braids'?
+##What are these 'Braids'? 
 
 ###Mathematical Concept
 A super-concise introduction to some of the mathematical concepts from Braid Theory: Find a complete introduction here: [http://www.ms.unimelb.edu.au/publications/Chiodo.pdf](http://www.ms.unimelb.edu.au/publications/Chiodo.pdf)
@@ -25,14 +25,14 @@ A super-concise introduction to some of the mathematical concepts from Braid The
 - **Configuration Spaces** (Relationship between Braid Groups and Configuration Spaces)
 	- [http://en.wikipedia.org/wiki/Configuration_space#Configuration_spaces_in_mathematics](http://en.wikipedia.org/wiki/Configuration_space#Configuration_spaces_in_mathematics)
 
-###Generalized Braids -- A Better Abstract Machine Model
+###Generalized Braids -- A Better Abstract Machine Model (*Still a very early concept*)
 
-Basic concept ([braids/README.md](braids/README.md)):
+Basic concept (**if we consider *all* things to be a 'Type'**):
 
-- Strands (Ordered Computations)
-- Permutations (Action on Strands over Data (CDT) Spaces)
-- Coordinations (Procedures between two strands in a given CDT space)
-- Space (Composite Data Type (CDT) Space {e.g. memory})
+- **Strands** (Sequence of Types -- Paths Over CDT Space)
+- **Permutations** (Action CDT's in the given Space)
+- **Coordinations** (Coordinate Types (CDT's) within the Space)
+- **Space** (Composite Data Type (CDT) Space {e.g. memory})
 
 We consider Generalized Braids to be a superior Abstract Machine model over Universal Turing Machines.
 

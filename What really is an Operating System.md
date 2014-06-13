@@ -8,6 +8,10 @@ An "Operating System" is just the word given to any "container" that packages va
 
 ###Current System Concepts
 
+**Quotations taken from David Dalrymple's article here: [http://davidad.github.io/blog/2014/03/12/the-operating-system-is-out-of-date/](http://davidad.github.io/blog/2014/03/12/the-operating-system-is-out-of-date/)**
+
+**Thanks to David for his article which helped inspired me to pursue the ideas that I will collectively be calling: BraidOS**
+
 ####Programming Languages
 
 >A programming language is a piece of software that automatically translates a specially formatted block of linear text into executable code.
