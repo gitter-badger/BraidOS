@@ -1,4 +1,4 @@
-#What *Really* Is A Computer System?
+ #What *Really* Is A Computer System?
 
 **Abstract:** We discuss modern Operating System models & various System Concepts. We try to generalize on these models and derive possible new directions for 'System Concepts'.
 
@@ -118,7 +118,7 @@ This must be the **first thing implemented in the System**. Everything else must
 
 We will probably build a concept off of **Symmetry**.
 
-###Symmetry
+####Symmetry
 
 - Symmetry is all about having a consistent framework: 
 	- invariance 
