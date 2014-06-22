@@ -145,6 +145,10 @@ Allowing an application to arrange it's own execution scheduling.
 
 Being able to *choose* what set of System Concepts you want to use for your 'application' or whatever.
 
+####Operating Systems should never be 'set'
+Operating Systems should change -- runtime reconfiguration should be an inherent property.
+Operating Systems should  be flexible (choose which system concepts to package at what times, essentially).
+
 ##The OS is the Machine
 You cannot access the actual hardware components without at least consulting it.
 But the operating system is more than an extension of the machine. A good example to think about would be: 
@@ -156,7 +160,5 @@ But the operating system is more than an extension of the machine. A good exampl
 It is really no different if you start with a RISC architecture and then control/extend it with a "System". (Sometimes we forget that software IS hardware as well).
 
 
-##Operating Systems should never be 'set'
-Operating Systems should change -- runtime reconfiguration should be an inherent property.
-Operating Systems should  be flexible (choose which system concepts to package at what times, essentially).
+
   
