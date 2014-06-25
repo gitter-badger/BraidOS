@@ -1,10 +1,15 @@
- #What *Really* Is A Computer System?
+#What *Really* Is A Computer System?
 
 **Abstract:** We discuss modern Operating System models & various System Concepts. We try to generalize on these models and derive possible new directions for 'System Concepts'.
 
 ##An OS is Just Packaging
 
 An "Operating System" is just the word given to any "container" that packages various "System Concepts" for how to use a machine.
+
+###Packages
+
+[http://en.wikipedia.org/wiki/List_of_operating_systems](http://en.wikipedia.org/wiki/List_of_operating_systems)
+
 
 ##Current System Concepts
 
@@ -13,8 +18,6 @@ An "Operating System" is just the word given to any "container" that packages va
 **Thanks to David for his article which helped inspired me to pursue the ideas that I will collectively be calling: BraidOS**
 
 ###Programming Languages
-
->A programming language is a piece of software that automatically translates a specially formatted block of linear text into executable code.
 
 Programming Languages are for Compiling/Assembling machine execution.
 
@@ -31,27 +34,72 @@ Programming Languages were invented as a Systems Concept. However, most modern p
 	- Arithmetic and logic operations
 	- Control flow operations 
 
+
+####Fortran
+
+**While Fortran may not be a 'System Concept' in of itself, it certainly has had enough influence to be addressed directly.**
+
+Deserves it's own section
+
 ####Array Programming
+
+APL - Created by Kenneth Iverson in the early 1960s
+
+>"most programming languages are decidedly inferior to mathematical notation and are little used as tools of thought in ways that would be considered significant by, say, an applied mathematician." - Iverson
+
+
 ####The Rise of Structured Programming
+
+ **Structured Program Theorem** - Any algorithm can be expressed using only three system concepts(control structures): Sequencing, Selection, Iteration.
+
+This is a continuum of the Turing Machine concepts put into practice.
+
+>From Wikipedia: 
+>1. Executing one subprogram, and then another subprogram (sequence)
+>2. Executing one of two subprograms according to the value of a boolean expression (selection)
+>3. Executing a subprogram until a boolean expression is true (iteration)
+
+The guy who sits in a chair and does work on a computational machine based on this theorem day-in and day-out is commonly referred to as a: **Software Engineer**.
+
+
 ####Object-Oriented Programming
 ####Imperative Programming
 ####Logic Programming
 ####Functional Programming
 
 
-###The Unix Kernel
+####Programming Languages - What For?
 
-While Unix may not be a 'System Concept' in of itself, it certainly has had enough influence to be addressed directly.
+Humans don't *need* programming languages to get a computational machine to achieve an end goal.
+
+Getting a computational machine to do what you want is achieved by applying *a set of System Concepts* to the computational machine.
+
+As stated earlier, Programming Languages are a 'System Concept' composed of smaller system concepts.
+
+Applications are written using a subset of the 'System Concepts' internal to a programming language (e.g. not every program will use a 'for loop').
+
+Thus, the argument is presented that **computational applications are constructed using a set of System Concepts brought together to achieve a particular end result.** 
+
+A programming language just happens to be a (conceptually-friendly) packaging of various smaller system concepts (similarly to modern day Operating Systems) used to achieve this. They are easily approachable by machine operators thanks to their human readable interface e.g. syntax (but actually implemented as a compiler/interpreter).
+
+**We conclude that programming languages may not be the necessity that they are commonly believed to be.**
+
+
+###The Unix(-like) Kernel
+
+**While Unix may not be a 'System Concept' in of itself, it certainly has had enough influence to be addressed directly.**
 
 >An operating system is a piece of software that facilitates the execution of multiple independent programs on one computer, using standard input and output routines.
+
+####Signals
+
+####Unix Pipes
 
 ####C Standard Library
 
 ####I/O Management 
 
 Device Drivers
-
-
 
 ###Interactivity
 
@@ -66,7 +114,7 @@ Device Drivers
 - Transactions are also the key idea behind version control systems, which are increasingly adopted in all corners of the software world. In that context, they are called “commits”.
 - Most recently, the core of crypto-currencies is a crude but clever solution to a distributed transaction processing problem. (In this context, transactions are in fact called transactions.)
 
-###Garbage Collection (Memory Reclamation)
+###Automated Memory Reclamation (Garbage Collection)
 
 >A garbage collector (GC) is a piece of software which maintains a data structure representing available memory, and marks a given memory location as available whenever it is no longer being referred to.
 
@@ -87,14 +135,7 @@ Device Drivers
 >An internetwork is a set of communications channels between computers, where each computer is running a service that routes incoming messages to some other communications channel, so that each message eventually reaches its addressee.
 
 
-###Packages
-
-[http://en.wikipedia.org/wiki/List_of_operating_systems](http://en.wikipedia.org/wiki/List_of_operating_systems)
-
-Let's not forget just how large of a demand there are for Operating Systems. :P
-
-##Necessary System Concepts
-
+##Suggested System Concepts
 
 ###Compilation Support
 
@@ -118,9 +159,16 @@ This must be the **first thing implemented in the System**. Everything else must
 
 We will probably build a concept off of **Symmetry**.
 
+
+- Formal Validator - *application* specific
+	- must be constructed per application
+- Formal Verifier - *toolchain* specific
+	- must be constructed per toolchain
+
+
 ####Symmetry
 
-- Symmetry is all about having a consistent framework: 
+- Symmetry is all about having a consistent 'framework': 
 	- invariance 
 	- and conservation.
 - Symmetry can be used for things such as: 
@@ -132,7 +180,7 @@ We will probably build a concept off of **Symmetry**.
 	- etc.
 
 ###Scalability Support (Distributed System Support)
-
+ 
 - Keeping the execution pipeline full
 - Trans-Machine Nativity (making a cluster easily act as "one" machine)
 
@@ -140,8 +188,8 @@ We will probably build a concept off of **Symmetry**.
 
 Allowing an application to arrange it's own execution scheduling.
 
-
-###System Package Options
+ 
+###System Package (Toolchain) Options
 
 Being able to *choose* what set of System Concepts you want to use for your 'application' or whatever.
 
