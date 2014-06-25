@@ -2,6 +2,8 @@
 
 **Abstract:** We discuss modern Operating System models & various System Concepts. We try to generalize on these models and derive possible new directions for 'System Concepts'.
 
+This paper serves as a (revisable) discussion interface to the topics that are addressed in detail in an upcoming paper on: 'Generalized Braids'.
+
 ##An OS is Just Packaging
 
 An "Operating System" is just the word given to any "container" that packages various "System Concepts" for how to use a machine.
@@ -143,6 +145,14 @@ Device Drivers
 
 Optimization should always be an intermediate between a User-made something and a System-made something. Whether that be User-Code, or User-Input it will always need to be properly optimized *for* the system itself auto-magically.
 
+Optimization is desired **everywhere.** If we *can* reasonably do so, we insist on our code being optimized. This is why optimization is performed (almost consistently for every program) at the point of compilation to machine code.
+
+This ubiquitous desire for optimized code can be considered as a 'System Necessity' i.e. something that should be addressed for anything across a System.
+
+We do run into a bit of a paradox (to be discussed later): We must figure out whether it is better to *first* optimize and then formally verify a piece of software, *or* whether the vice-versa is more appropriate.
+
+In other words: **can we guarantee a piece of software to simultaneously be both Formally Validated/Verified *and* maximally optimized.**
+
 ###Concurrency Support
 
 Isolation is easy, communication is hard.
@@ -179,7 +189,7 @@ We will probably build a concept off of **Symmetry**.
 	- caching, 
 	- etc.
 
-###Scalability Support (Distributed System Support)
+###Scaling Support (Distributed System Support)
  
 - Keeping the execution pipeline full
 - Trans-Machine Nativity (making a cluster easily act as "one" machine)
@@ -192,6 +202,12 @@ Allowing an application to arrange it's own execution scheduling.
 ###System Package (Toolchain) Options
 
 Being able to *choose* what set of System Concepts you want to use for your 'application' or whatever.
+
+- Breaking down application design into commonly used concepts:
+	- Data Management
+	- Logic (Core) Management
+	- User-End Management
+
 
 ####Operating Systems should never be 'set'
 Operating Systems should change -- runtime reconfiguration should be an inherent property.

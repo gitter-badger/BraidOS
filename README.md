@@ -2,6 +2,8 @@
 
 **Welcome to BraidOS! The world's first 'Braided System'!**
 
+This repo is currently in a state of **Research** -- Intellectual Contributions are most welcome, but if you would like to try to implement one of the concepts discussed here just open up a issue on the repo telling me your idea, and I will be glad to discuss it/help out in what way I can.
+
 ##What are these 'Braids'? 
 
 ###Mathematical Concept
@@ -36,7 +38,7 @@ Basic concept (**if we consider *all* things to be a 'Type'**):
 
 We consider Generalized Braids to be a superior Abstract Machine model over Universal Turing Machines.
 
-Since Braids are just an abstraction, these concepts will be what we will call: **System Types** or **System CDTs**
+Since Generalized Braids are just an abstraction, these concepts will be what we will call: **System Types** or **System CDTs**
 
 
  
