@@ -1,0 +1,7 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Turing Machines}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Topological Braids}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Computational Braids}{4}{section.2}
+\contentsline {section}{\numberline {3}Systems Theory}{4}{section.3}
+\contentsline {section}{\numberline {4}Conclusions}{4}{section.4}
