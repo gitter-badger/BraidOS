@@ -16,6 +16,11 @@
 ###Topological Braid Theory
 
  - Algebraic and Geometric views on mathematical braids
+	 - Geometric Braids
+	 - Polygonal Braids
+	 - Braid Groups (and their algebraic properties)
+		 - Pure Braid Groups
+		 - Relationship to Configuration Spaces
  - Some homological views on braids
 
 ##Computational Braids
