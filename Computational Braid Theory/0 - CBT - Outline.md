@@ -22,6 +22,7 @@
 		 - Pure Braid Groups
 		 - Relationship to Configuration Spaces
  - Some homological views on braids
+	 - 1 -> P\_n -> B\_n -> S\_n -> 1
 
 ##Computational Braids
 
